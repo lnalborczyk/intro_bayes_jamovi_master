@@ -1222,7 +1222,7 @@ class: middle, center
 
 ---
 
-# Analyse de la variance (ANOVA) fréquentist
+# Analyse de la variance (ANOVA) fréquentiste
 
 L'ANOVA fréquentiste implique une comparaison de variances. On compare la variance *entre* les différents niveaux d'un prédicteur (variance inter) à la variance *au sein* de ces niveaux (variance intra). Lorsqu'un prédicteur catégoriel n'a pas d'effet, la variance (dans la population) entre les niveaux est égale à la variance (dans la population) au sein des niveaux. Le ratio de ces variances est distribué selon une loi de Fisher-Snedecor. Sous l'hypothèse nulle, on peut calculer (comme nous l'avons fait pour le t-test), la probabilité d'obtenir un ratio de variances au moins aussi large que celui que nous avons observé (i.e., on peut calculer une p-value). Figure tirée de [cet article de blog](https://www.linkedin.com/pulse/anova-analysis-variance-kumar-p).
 
