@@ -6,7 +6,7 @@ date: '05.10.2022 <br><br> `r icons::icon_style(icons::fontawesome(name = "twitt
 output:
   xaringan::moon_reader:
     lib_dir: libs
-    css: ["css/xaringan-themer.css", "custom.css"]
+    css: ["css/xaringan-themer.css"] # , "custom.css"]
     mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"
     self-contained: true
     nature:
